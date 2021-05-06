@@ -7,11 +7,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prod": "next build && next start"
+    "prod": "next build && next start",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
+    "bootstrap": "^5.0.0",
     "can-use-dom": "^0.1.0",
     "chart.js": "^2.9.4",
     "next": "10.0.8",

@@ -2,6 +2,7 @@ import App from 'next/app';
 import Head from 'next/head';
 import { appWithTranslation } from '../i18n';
 import { globalStyles } from '../public/styles/styles';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const MyApp = ({ Component, pageProps }) => (
   <>

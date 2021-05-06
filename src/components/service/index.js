@@ -33,3 +33,28 @@ export const zomato = async ({ city, count }) => {
     .then(validateResponse)
     .then((resp) => resp.data);
 };
+
+export const appointment = async ({ pincode, date }) => {
+  // const url = `/api/v2/appointment/sessions/calendarByPin?pincode=${pincode}&date=${date}`;
+  const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByPin?pincode=${pincode}&date=${date}`;
+  return fetch(url, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+    .then(validateResponse)
+    .then((resp) => resp.data);
+};
+
+export const bookAppointment = async (request) => {
+  // const url = `${endPoints[process.env.NODE_ENV]}api/jio-care-service/jiocare/trackorder/sendOTP`;
+  const url = 'https://cdn-api.co-vin.in/api/v2/appointment/schedule';
+  return fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(request)
+  })
+    .then(validateResponse)
+    .then((resp) => resp.data);
+};

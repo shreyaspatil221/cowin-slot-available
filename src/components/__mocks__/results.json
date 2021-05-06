@@ -1,0 +1,69 @@
+{
+  "centers": [
+    {
+      "center_id": 692991,
+      "name": "THANE Global Hub (18-44)",
+      "address": "Laxmi Nagar Balkum Pada Thane",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "14:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "306f0c99-5ded-4068-abbc-85314930c94f",
+          "date": "06-05-2021",
+          "available_capacity": 23,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 635181,
+      "name": "TMC SMC Air Force Thane",
+      "address": "Air Force Station Kolshet Road Near Kendriya Vidyalaya Thane",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "10:30:00",
+      "to": "14:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b759b64f-7086-4c43-acee-b41d7af135cb",
+          "date": "06-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:30AM-12:30PM",
+            "12:30PM-02:00PM"
+          ]
+        },
+        {
+          "session_id": "fdadf3f3-1272-4d86-a9d9-0b367eb8e464",
+          "date": "07-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:30AM-12:30PM",
+            "12:30PM-02:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+}
