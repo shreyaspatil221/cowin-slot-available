@@ -77,7 +77,7 @@ const Dashboard = () => {
     return formatted;
   };
 
-  const filterByAge = ({ centers }) => centers?.filter((resp) => (resp?.name.includes('18-44')));
+  const filterByAge = ({ centers }) => centers?.filter((resp) => (resp?.name.includes('18')));
 
   const getData = async () => {
     // setIsLoading(true);
