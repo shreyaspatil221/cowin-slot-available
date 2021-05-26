@@ -17,6 +17,7 @@ const container = css`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  line-height: normal;
 `;
 
 const wrapper = css`
@@ -36,6 +37,7 @@ const list = css`
   gap: 2rem;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
   padding: 2rem 0 0 0;
 `;
 
@@ -54,8 +56,8 @@ const gap = css`
   gap: 1rem;
 `;
 
-const blue = css`color: blue; font-size: 3rem; padding: 1rem;`;
-const red = css`color: red; font-size: 3rem; padding: 1rem;`;
+const blue = css`color: blue; font-size: 12rem; padding: 1rem; font-weight: bold;`;
+const red = css`color: red; font-size: 12rem; padding: 1rem;  font-weight: bold;`;
 const green = css`background: #d3f1de;`;
 
 const Dashboard = () => {
@@ -86,8 +88,9 @@ const Dashboard = () => {
       const { date = null, pincode = null } = query;
       const resp = await appointment({ pincode: pincode || '400607', date: date || dateToday });
       const ageData = filterByAge(resp);
-      console.log('ageData', ageData);
+      // console.log('ageData', ageData);
       setResults({ centers: ageData });
+      // setResults(resp);
     } catch (err) {
       setError(err.message || 'GENERIC_ERROR');
     }
@@ -100,10 +103,11 @@ const Dashboard = () => {
   // }, []);
 
   useEffect(() => {
-    setInterval(() => {
+    setInterval(async () => {
       getData();
-    }, 2000);
-    return () => { };
+    }, 5000);
+    getData();
+    return () => { clearInterval(); };
   }, []);
 
   // eslint-disable-next-line max-len
@@ -139,7 +143,7 @@ const Dashboard = () => {
       />
       <div css={container}>
         <div css={wrapper}>
-          <div>Slot Abailable ?</div>
+          {/* <div>Slot Abailable ?</div> */}
           {isAvaliable ? <div css={blue}>YES</div> : <div css={red}>NO</div>}
           <a href="https://selfregistration.cowin.gov.in/appointment">COWIN</a>
           <div css={list}>

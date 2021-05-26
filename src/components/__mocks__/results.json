@@ -17,12 +17,54 @@
         {
           "session_id": "306f0c99-5ded-4068-abbc-85314930c94f",
           "date": "06-05-2021",
-          "available_capacity": 23,
+          "available_capacity": 0,
           "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
             "02:00PM-04:00PM",
             "04:00PM-05:00PM"
+          ]
+        },
+        {
+          "session_id": "d62a46bf-bcf1-45df-8bbc-45856c5b685e",
+          "date": "07-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "02:00PM-03:00PM",
+            "03:00PM-04:00PM",
+            "04:00PM-05:00PM",
+            "05:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 695478,
+      "name": "THANE Global Hub 3 (18-44)",
+      "address": "Laxmi Nagar Balkum Pada Thane",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "14:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f06bfd7e-b721-44f2-bc65-638426667c9b",
+          "date": "06-05-2021",
+          "available_capacity": 2,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "02:00PM-03:00PM",
+            "03:00PM-04:00PM",
+            "04:00PM-05:00PM",
+            "05:00PM-06:00PM"
           ]
         }
       ]
@@ -61,6 +103,151 @@
           "slots": [
             "10:30AM-12:30PM",
             "12:30PM-02:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 607047,
+      "name": "TMC Dhokali HC",
+      "address": "Sukur Garden Manoramanagr Road Dhokali Naka Kolshet Rd Thane West Thane Maharashtra 400607",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "12:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5cc6fb8a-95fa-4015-bd3b-744b476ebda6",
+          "date": "07-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 67582,
+      "name": "TMC MANPADA UHC",
+      "address": "Manpada Thane West Thane Maharashtra",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "12:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ee53df24-24c6-4ef0-b90d-3c59b916ee1d",
+          "date": "07-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 615442,
+      "name": "TMC Manorama Nagar UHC",
+      "address": "Manoramanagar Near TMC School No.128",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "12:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "dd52299e-12cd-44eb-b695-ea9c2f744963",
+          "date": "07-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 607104,
+      "name": "TMC Balkum HC",
+      "address": "Balkum Health Centre Balkum Pada No 1 Dadlani Rd Thane (W)",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "12:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ef04f9e3-03d0-45e5-bffe-028c025fb93a",
+          "date": "07-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM",
+            "03:00PM-04:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 67581,
+      "name": "TMC Azad Nagar HC",
+      "address": "Azadnagar Kolshet Thane",
+      "state_name": "Maharashtra",
+      "district_name": "Thane",
+      "block_name": "Thane Municipal Corporation",
+      "pincode": 400607,
+      "lat": 19,
+      "long": 72,
+      "from": "12:00:00",
+      "to": "16:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "46afac15-fe45-4a4c-be96-d6dd42648c33",
+          "date": "07-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "12:00PM-01:00PM",
+            "01:00PM-02:00PM",
+            "02:00PM-03:00PM",
+            "03:00PM-04:00PM"
           ]
         }
       ]

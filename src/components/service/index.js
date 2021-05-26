@@ -36,7 +36,7 @@ export const zomato = async ({ city, count }) => {
 
 export const appointment = async ({ pincode, date }) => {
   // const url = `/api/v2/appointment/sessions/calendarByPin?pincode=${pincode}&date=${date}`;
-  const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByPin?pincode=${pincode}&date=${date}`;
+  const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode=${pincode}&date=${date}`;
   return fetch(url, {
     method: 'GET',
     headers: {
